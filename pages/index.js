@@ -1,12 +1,10 @@
-import { callBtcPrice } from "../public/apiCalls/callBtcPrice";
-import { callBluePrice } from "../public/apiCalls/callBluePrice";
+import { React } from "react";
+import LandingPage from "./LandingPage";
 
 export default function Home() {
-  console.log(callBluePrice);
-  console.log(callBtcPrice);
   return (
     <div>
-      <p>asdasdad</p>
+      <LandingPage></LandingPage>
     </div>
   );
 }
